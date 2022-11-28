@@ -2,13 +2,13 @@
 
 **Abstract**
 
-Implementation of a Neural Network from scratch with a customized pipeline to parameter tunning and cross validation.
+Implementation of a Neural Network from scratch with a customized pipeline to parameter tuning and cross validation.
 
-The algorithm was tested in binary problem (Breast Cancer Dataset from sklearn) and multiclass problem (mental imagery dataset - available in https://www.bbci.de/competition/iii/desc_V.html)
+The algorithm was tested in a binary problem (Breast Cancer Dataset from sklearn) and a multiclass problem (mental imagery dataset - available at https://www.bbci.de/competition/iii/desc_V.html)
 
-The algorithm used is a single hidden layer neural network, using sigmoid activation in all neurons. The bissection algothim was used to find the best learning rate and optimize the task.
+The algorithm used is a single hidden layer neural network, using sigmoid activation in all neurons. The bisection algorithm was used to find the best learning rate and speed up convergence.
 
-The pipeline used to find the best configuration is described in the imagem below.
+The pipeline used to find the best configuration considering accuracy is described in the image below.
 
 ![fluxo](https://user-images.githubusercontent.com/54689450/204160174-ea225fb6-0603-4d9f-837e-582ec4680f9e.png)
 
